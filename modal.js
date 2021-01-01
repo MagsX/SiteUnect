@@ -4,7 +4,7 @@ function abrirmodal() {
 }
 
 function fecharmodal() {
-  document.getElementById('modal').style.top = '-1000px';
+  document.getElementById('modal').style.top = '-3000px';
   document.getElementById('bt3').style.right = '';
 }
 
