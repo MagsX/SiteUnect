@@ -18,7 +18,7 @@ function antImage(){
   }else{
     i = image.length;
   }
-    slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+    slider_content.innerHTML = "<img src=slideimg/"+image[i-1]+".jpg>";
 
 }
 
