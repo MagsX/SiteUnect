@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inscrições Unect 2021 - Home</title>
+  <link rel="stylesheet" href="SiteUnect.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div id="topo">
+        <span>
+          <img id="imgtop" src="IMG/unect_simbolo_azul.svg" class="imgslider">
+        </span>
+        <span id="frasetop">
+          &lt;Processo Seletivo 2021&gt;
+        </span>
+      </div>
+      <h2 class="h2">Uma <span class="frase">frase.</span><br>Outra <span class="frase">frase.</span><br>A terceira <span class="frase">frase.</span></h2>
+      <p id="ph">Inscrições abertas até o dia <span id="data">06/11!</span></p>
+      <button id="bt1" name="inscreva" type="button">Inscreva-se</button>
+      <button id="bt2" name="edital" type="button"><span>Edital </span><img src="IMG/chevron-rightblue.svg" alt=""></button>
+      <a href="https://pt-br.facebook.com/UnectJr" class="face" target="_blank" id="face1"><img src="IMG/facebook.svg" alt=""></a>
+      <a href="https://www.instagram.com/unectjr/?hl=pt-br" target="_blank" class="insta" id="insta1"><img src="IMG/instagram.svg" alt=""></a>
+      <a href="https://br.linkedin.com/company/unect-jr." target="_blank" class="in" id="in1"><img src="IMG/linkedin.svg" alt=""></a>
+    </header>
+
+    <div class="container2">
+
+      <div class="sobrenos">
+        <h2 class="subh2" id="h2-2">Sobre Nós</h2>
+        <div class="box1">
+          <div class="slider">
+            <div class="boximg" id="boxslide">
+              <img src="slideimg/1.jpg" alt="" class="imgslider">
+            </div>
+          </div>
+          <button class="slidebt" id="prox" onclick="proxImage()">
+            <img src="IMG/rightchev.svg" alt="">
+          </button>
+          <button class="slidebt" id="ant" onclick="antImage()">
+            <img src="IMG/leftchev.svg" alt="">
+          </button>
+
+          <script src="slide.js"></script>
+
+          <p id="textsobre">A Unect Jr. é uma Empresa Júnior vinculada aos cursos de Computação da UTFPR-CP que desenvolve sites, aplicações mobile e web, e que busca, através da vivência empresarial, proporcionar aos seus membros o ambiente ideal para que eles se desenvolvam e apliquem os seus conhecimentos, que vão muito além da área de computação.</p>
+        </div>
+
+      </div>
+      <div class="vagas">
+        <h2 class="subh2">Vagas</h2>
+
+        <h3 id="h31"><img src="IMG/design.svg" alt=""> Design <span class="h3">Projetos</span></h3>
+        <p class="pvagas" id="pv1">Volutpat lacus nunc gravida scelerisque et, vitae vitae. Nibh tincidunt mi accumsan sapien. Accumsan, est arcu cum malesuada faucibus odio sit at. Sit feugiat amet dignissim lectus integer nec neque, aliquam.</p>
+
+        <h3 id="h32"><img src="IMG/code.svg" alt=""> Desenvolvedor <span class="h3">Projetos</span></h3>
+        <p class="pvagas" id="pv2">Euismod etiam condimentum nam non elit, dui cursus. Non vulputate donec fringilla lectus mauris, feugiat et. Magna est volutpat turpis velit bibendum volutpat. Venenatis a ut rutrum fusce mi, consequat ante consequat sed.</p>
+
+        <h3 id="h33"><img src="IMG/megaphone.svg" alt=""> Marketing</h3>
+        <p class="pvagas" id="pv3">Vel quis justo, porttitor quis non aliquam non mi. Gravida orci dictum ullamcorper ut bibendum. Consequat malesuada ullamcorper libero, tortor. Gravida eu vel a morbi orci odio risus.</p>
+
+        <h3 id="h34"><img src="IMG/id.svg" alt=""> Administrativo/Financeiro</h3>
+        <p class="pvagas" id="pv4">Tempus, tortor, id leo arcu at adipiscing potenti viverra. Cras vitae pharetra nisi, nunc netus tincidunt. Lectus sit habitant amet interdum in ultrices. Consectetur urna sagittis, sed pretium.</p>
+
+        <h3 id="h35"><img src="IMG/people.svg" alt=""> Recursos Humanos</h3>
+        <p class="pvagas" id="pv5">Auctor massa neque, nisi, placerat. Amet quis metus sed suscipit congue porta non vitae purus. Mauris sed donec sed neque cursus. Tincidunt diam purus sed aliquam cras habitasse pharetra.</p>
+
+        <h3 id="h36"><img src="IMG/phone.svg" alt=""> Comercial</h3>
+        <p class="pvagas" id="pv6">Scelerisque elementum in felis in quis mattis sed. Odio aliquam ultrices pellentesque morbi nibh amet ipsum. Nullam adipiscing ornare quam molestie tellus elementum.</p>
+
+      </div>
+
+      <hr>
+
+      <div class="ondeestão">
+        <h2 id="h2onde">Onde estão nossos alumni?</h2>
+        <img class="emp" id="samg" src="IMG/samsung-logo.png" alt="">
+        <img class="emp" id="goog" src="IMG/google-logo.png" alt="">
+        <img class="emp" id="micro" src="IMG/microsoft-logo.png" alt="">
+        <img class="emp" id="intel" src="IMG/intel-logo.png" alt="">
+        <img class="emp" id="ambev" src="IMG/ambev-logo.png" alt="">
+      </div>
+
+      <button id="bt3" name="pergunte" type="button" onclick="abrirmodal()">
+        <div id="textbt3">
+          Envie sua dúvida
+        </div>
+        <div>
+          <div class="bordbt">
+            <img src="IMG/Circulo.svg" width="26.25" height="26.25">
+          </div>
+          <div class="botsimb">
+            <img src="IMG/Interrogação.svg" alt="">
+          </div>
+        </div>
+      </button>
+      <script src="modal.js"></script>
+
+    </div>
+
+    <footer>
+
+      <a id="face2" href="https://pt-br.facebook.com/UnectJr" target="_blank"><img src="IMG/facebook-white.svg" alt=""></a>
+      <a id="insta2" href="https://www.instagram.com/unectjr/?hl=pt-br" target="_blank"><img src="IMG/instagram-white.svg" alt=""></a>
+      <a id="in2" href="https://br.linkedin.com/company/unect-jr." target="_blank"><img src="IMG/linkedin-white.svg" alt=""></a>
+      <a id="site" href="https://www.unect.com.br/" target="_blank">unect.com.br</a>
+
+      <div id="emoji">
+        <span id="abacaxi">&#127821;</span>
+        <span id="coração">&#128153;</span>
+        <span id="morgana">&#128053;</span>
+      </div>
+      <div id="email">
+        rh.unect@gmail.com
+      </div>
+      <div id="line"><img id="" src="IMG/Line 1.svg" alt=""></div>
+      <div id="final">
+        ©2020 Unect Jr.
+      </div>
+
+    </footer>
+
+  </div>
+  <div class="bgmodal" id="modal">
+    <div class="modal">
+      <div class="cabmodal">
+        <span>Pergunta pra gente &#128522; </span>
+      </div>
+      <form>
+        <div class="nome">
+          <p class="pform" id="pform1">Nome</p>
+          <input name="Nome" type="text" id="nomeinput" required>
+        </div>
+        <div class="usuemail">
+          <p class="pform" id="pform2">E-mail</p>
+          <input type="email" name="email" id="mailinput" required>
+        </div>
+        <div class="usumsg">
+          <p class="pform" id="pform3">Mensagem</p>
+          <textarea name="mensagem" id="textarea" placeholder="Escreva aqui..." cols="30" rows="10" required></textarea>
+        </div>
+        <button class="modalbt" id="enviar" type="submit" onsubmit="fecharmodal()">Enviar</button>
+        <button class="modalbt" id="cancel" type="reset" onclick="fecharmodal()">Cancelar</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
